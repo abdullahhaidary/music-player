@@ -1,0 +1,23 @@
+{
+    "app": {
+        "title": "Music Player",
+        "now_playing": "Now Playing",
+        "playlist": "Playlist",
+        "settings": "Settings",
+        "search": "Search for songs...",
+        "dark_mode": "Dark Mode",
+        "language": "Language",
+        "import": "Import Music"
+    },
+    "player": {
+        "play": "Play",
+        "pause": "Pause",
+        "next": "Next",
+        "previous": "Previous",
+        "shuffle": "Shuffle",
+        "repeat": "Repeat",
+        "volume": "Volume",
+        "no_song": "No song selected",
+        "import_prompt": "Import a song to start playing"
+    }
+} 

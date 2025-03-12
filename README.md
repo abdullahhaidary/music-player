@@ -6,7 +6,7 @@ A beautiful and responsive music player web application with multi-language supp
 
 - 🎵 Modern and responsive UI
 - 🌓 Dark mode support
-- 🌐 Multi-language support (English, Spanish, Arabic)
+- 🌐 Multi-language support (English, Persian, Pashto)
 - 📱 Mobile-friendly design
 - 🎨 Beautiful animations and transitions
 - 🔍 Search functionality
@@ -31,8 +31,8 @@ A beautiful and responsive music player web application with multi-language supp
 
 The music player supports the following languages:
 - English (default)
-- Spanish (Español)
-- Arabic (العربية)
+- Persian (فارسی)
+- Pashto (پښتو)
 
 To change the language, use the language selector in the top-right corner of the player.
 

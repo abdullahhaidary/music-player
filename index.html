@@ -62,7 +62,11 @@
             <h2 class="text-xl font-semibold mb-4 text-gray-800 dark:text-white" data-lang="app.now_playing">Now Playing</h2>
             <div class="flex items-center space-x-4">
                 <div class="w-24 h-24 rounded-lg bg-gray-200 dark:bg-dark-300 overflow-hidden">
-                    <img src="assets/images/album-placeholder.jpg" alt="Album Art" class="w-full h-full object-cover">
+                    <div class="w-full h-full flex items-center justify-center bg-gray-200 dark:bg-dark-300">
+                        <svg class="w-12 h-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-2v13M9 10l12-2m-6 8v-6m0 0L3 5m0 0v13m0-13l12 2"></path>
+                        </svg>
+                    </div>
                 </div>
                 <div class="flex-1">
                     <h3 id="currentSongTitle" class="text-lg font-semibold text-gray-800 dark:text-white">No song selected</h3>
@@ -109,7 +113,9 @@
                 <!-- Playlist Item -->
                 <div class="flex items-center p-3 hover:bg-gray-50 dark:hover:bg-dark-300 rounded-lg transition-colors cursor-pointer">
                     <div class="w-12 h-12 rounded bg-gray-200 dark:bg-dark-300 mr-4">
-                        <img src="assets/images/album-placeholder.jpg" alt="Album Art" class="w-full h-full object-cover rounded">
+                        <div class="flex items-center justify-center w-full h-full">
+                            <i class="fas fa-music text-gray-400"></i>
+                        </div>
                     </div>
                     <div class="flex-1">
                         <h4 class="text-gray-800 dark:text-white font-medium">Another Song Title</h4>
